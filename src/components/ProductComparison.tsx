@@ -58,7 +58,12 @@ export const ProductComparison = () => {
               ))}
               <tr className="bg-gray-100 font-bold">
                 <td className="p-6 text-lg text-black">Starting Price</td>
-                <td className="p-6 text-center text-green-600 text-lg">$299</td>
+                <td className="p-6 text-center">
+                  <div className="flex flex-col items-center space-y-1">
+                    <span className="text-green-600 text-lg">$40</span>
+                    <span className="text-xs text-gray-600">Plus & Pro available</span>
+                  </div>
+                </td>
                 <td className="p-6 text-center text-black text-lg">$3,500</td>
                 <td className="p-6 text-center text-black text-lg">$4,500</td>
               </tr>

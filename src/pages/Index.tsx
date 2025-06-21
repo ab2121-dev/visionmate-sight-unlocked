@@ -121,17 +121,22 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-4xl font-bold mb-6">Coming Soon</h3>
           <p className="text-xl mb-8 text-gray-300">
-            Be among the first to experience VisionMate. Pre-order now and get exclusive early access.
+            Be among the first to experience VisionMate. Multiple models available to fit your needs.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button size="lg" className="bg-white text-black hover:bg-gray-200 text-lg px-8 py-4">
-              Pre-Order for $299
+              Pre-Order Basic - $40
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4">
-              Join Waitlist
+              View All Models
             </Button>
           </div>
-          <p className="text-sm mt-6 text-gray-400">
+          <div className="text-center space-y-2 mb-6">
+            <p className="text-gray-300">
+              <span className="font-semibold">Basic $40</span> • <span className="font-semibold">Plus $99</span> • <span className="font-semibold">Pro $149</span>
+            </p>
+          </div>
+          <p className="text-sm text-gray-400">
             Expected delivery: Q2 2024 • 30-day money-back guarantee
           </p>
         </div>
