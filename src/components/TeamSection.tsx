@@ -4,24 +4,29 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const TeamSection = () => {
   const team = [
     {
-      name: "Dr. Sarah Chen",
+      name: "Aarush Pancholi",
       role: "CEO & Co-Founder",
-      description: "Former Microsoft AI researcher with 10+ years in computer vision",
+      description: "Vision and strategy leader driving accessible technology innovation",
     },
     {
-      name: "Marcus Rodriguez",
+      name: "Abhinav Balamurugan",
       role: "CTO & Co-Founder",
-      description: "Hardware engineer specializing in wearable assistive technology",
+      description: "Technical architect specializing in AI and computer vision systems",
     },
     {
-      name: "Dr. Priya Patel",
-      role: "Head of Accessibility",
-      description: "Orientation & mobility specialist with 15 years experience",
+      name: "Arnav Mehta",
+      role: "Head of Product",
+      description: "Product development expert focused on user experience and accessibility",
     },
     {
-      name: "James Kim",
+      name: "Saket Rage",
       role: "Lead AI Engineer",
-      description: "Computer vision expert, former Apple accessibility team",
+      description: "Machine learning specialist developing offline AI processing capabilities",
+    },
+    {
+      name: "Mohnish Sai",
+      role: "Hardware Engineer",
+      description: "Wearable technology engineer designing lightweight, durable solutions",
     },
   ];
 
@@ -29,7 +34,7 @@ export const TeamSection = () => {
     <section id="team" className="py-16 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h3 className="text-4xl font-bold text-center mb-12 text-black">Our Team</h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {team.map((member, index) => (
             <Card key={index} className="text-center border-2 border-gray-200 hover:border-black transition-colors">
               <CardHeader>
