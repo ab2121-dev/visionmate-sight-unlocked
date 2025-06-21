@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const TeamSection = () => {
   const team = [
     {
-      name: "Aarush Pancholi",
-      role: "CEO & Co-Founder",
+      name: "Saket Rage",
+      role: "CEO",
       description: "Vision and strategy leader driving accessible technology innovation",
     },
     {
@@ -14,19 +14,19 @@ export const TeamSection = () => {
       description: "Technical architect specializing in AI and computer vision systems",
     },
     {
-      name: "Arnav Mehta",
-      role: "Head of Product",
-      description: "Product development expert focused on user experience and accessibility",
+      name: "Mohnish Sai",
+      role: "Hardware & Co-Founder",
+      description: "Wearable technology engineer designing lightweight, durable solutions",
     },
     {
-      name: "Saket Rage",
+      name: "Aarush Pancholi",
       role: "Lead AI Engineer",
       description: "Machine learning specialist developing offline AI processing capabilities",
     },
     {
-      name: "Mohnish Sai",
-      role: "Hardware Engineer",
-      description: "Wearable technology engineer designing lightweight, durable solutions",
+      name: "Arnav Mehta",
+      role: "Head of Product",
+      description: "Product development expert focused on user experience and accessibility",
     },
   ];
 
